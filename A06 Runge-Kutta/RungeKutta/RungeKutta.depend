@@ -1,9 +1,0 @@
-# depslib dependency file v1.0
-1681657986 source:c:\users\petva\desktop\fmfi uk\2. rocnik\pocitacova fyzika\ulohy\b06\rungekutta\main.cpp
-	<cmath>
-	<fstream>
-	<functional>
-	<iostream>
-	<iomanip>
-	<valarray>
-

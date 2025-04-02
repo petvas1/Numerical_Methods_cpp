@@ -1,9 +1,0 @@
-# depslib dependency file v1.0
-1682170190 source:c:\users\petva\desktop\fmfi uk\2. rocnik\pocitacova fyzika\ulohy\b07\main.cpp
-	<iostream>
-	<fstream>
-	<iomanip>
-	<valarray>
-	<cmath>
-	<vector>
-
