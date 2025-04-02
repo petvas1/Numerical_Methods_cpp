@@ -1,0 +1,12 @@
+reset session
+cd 'C:\Users\petva\Desktop\FMFI UK\2. rocnik\Pocitacova fyzika\ulohy\A08'
+set encoding utf8
+set xr[0:1]
+set yr[0:1]
+set xl 'x/(L/2)'
+set tics 0.1 
+set xtics nomirror
+set border 11
+set grid
+set yl '{/Symbol r} [C/m]'
+p 'data.dat' w l lw 2 t '{/Symbol r}'

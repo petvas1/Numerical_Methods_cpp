@@ -1,0 +1,6 @@
+reset session 
+cd 'C:\Users\petva\Desktop\FMFI UK\2. rocnik\Pocitacova fyzika\ulohy\B06\RungeKutta'
+set xl 'x'
+set yl 'y' rotate by pi/2
+set xr[0:10]
+p 'data.dat' w l t 'RK4', x**4

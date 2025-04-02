@@ -1,0 +1,9 @@
+reset session
+set term qt size 600, 300
+cd 'C:\Users\petva\Desktop\FMFI UK\2. rocnik\Pocitacova fyzika\ulohy\B02\cast 2'
+set encoding utf8
+set xrange[0:1]
+set yrange[0:1e8]
+set xlabel 'x'
+set ylabel 'výskyty'
+p 'pravdep.dat' pt 7 ps 0.5 not

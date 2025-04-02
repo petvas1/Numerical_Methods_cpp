@@ -1,0 +1,10 @@
+reset session 
+cd 'C:\Users\petva\Desktop\FMFI UK\2. rocnik\Pocitacova fyzika\ulohy\B12 RK oscillator'
+set encoding utf8
+set xl 'x'
+set yl 'p' rotate by pi/2
+set label 'T' font ',18' at 0,-4 tc 'black'
+set label 'T_{1/2}'  font ',18' at 0,-5 tc 'green'
+set label 'F = cos t'  font ',18' at 0,-6 tc 'blue'
+p 'data.dat' u 2:3 every 2::1 pt 7 ps 0.2 lc 'black' not, 'data.dat' u 2:3 every 2 pt 7 ps 0.2 lc 'green' not,\
+'data2.dat' u 2:3 pt 7 ps 0.2 lc 'blue' not

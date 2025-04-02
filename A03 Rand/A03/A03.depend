@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1679597793 source:c:\users\petva\desktop\fmfi uk\2. rocnik\pocitacova fyzika\ulohy\a03\a03\main.cpp
+	<iostream>
+	<fstream>
+	<cmath>
+	<time.h>
+	<stdlib.h>
+	<numeric>
+	<stdint.h>
+	<limits.h>
+

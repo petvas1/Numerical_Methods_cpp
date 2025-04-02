@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1682268192 source:c:\users\petva\desktop\fmfi uk\2. rocnik\pocitacova fyzika\ulohy\a08\main.cpp
+	<iostream>
+	<cmath>
+	<fstream>
+

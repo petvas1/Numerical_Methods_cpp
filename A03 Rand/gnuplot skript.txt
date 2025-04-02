@@ -1,0 +1,15 @@
+reset session
+set encoding utf 8
+cd 'C:\Users\petva\Desktop\FMFI UK\2. rocnik\Pocitacova fyzika\ulohy\A03\A03'
+n=100 
+min=0. 
+max=1. 
+width=(max-min)/n
+hist(x,width)=width*floor(x/width)+width/2.0
+set boxwidth width*0.9
+set style fill solid 0.5 # fill style
+set xr [0:1]
+set xl 'x' offset 0,0.5
+set yl 'počet hodnôt' offset 1
+set tics nomirror
+plot 'gauss.dat' u (hist($1,width)):(1.0) smooth freq w boxes lc rgb 'blue' notitle, 1000 lc rgb 'red' lw 2 t 'stredná hodnota'

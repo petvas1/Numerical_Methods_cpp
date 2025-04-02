@@ -1,0 +1,12 @@
+reset session
+set encoding utf8
+cd 'C:\Users\petva\Desktop\FMFI UK\2. rocnik\Pocitacova fyzika\ulohy\A03\A03'
+var_s =  82.618
+s =  499.988
+set boxwidth 0.9 relative
+set style fill solid 0.5
+set xl 's' offset 0,0.5
+set yl 'p(s)' offset 1
+set title 'N = 1000, M = 100000'
+p 'gauss.dat' w boxes lc rgb 'blue' not, 1./sqrt(2*pi*var_s)*exp(-(x-s)**2/(2*var_s)) lc rgb 'red' lw 2 t 'gauss'
+
